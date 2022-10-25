@@ -1,0 +1,19 @@
+3 katmanlı yapı vardır 
+DATA ACCESS--> veri erişim katmanı
+BUSINESS --> iş kuralları katmanı 
+UI --> kullanıcıya ulaşım (Desktop,android,ios,B2B)
+
+B2B uygulamalar birbiri ile iletişim içinde olan uygulamalardır. 
+mesela n11, hepsiburada trendyolda ortak satılan bir ürünün stoktan düşmesi gibi.
+burada uygulamalar farklı dil kullansa da ortak dil ile veri toplanır(xml web service, json gibi)
+
+apiler farklı isstemlerin birbiri ile iletişim kurmasını sağlayan yapılardır.
+bu tüm katmanları uygulayan framework spring dir
+
+
+entity --> veri tabanı nesneleri
+dataaccess<<>iş yapan sınıfları somut oluşturmayacağız 
+repository==DAO aynı işlevlerin olduğu klasörler
+
+--postman.com download
+
